@@ -1,5 +1,7 @@
 # Roles del equipo con Claude como desarrollador principal
 
+Los perfiles individuales, límites y prompts de inicio están en [equipo/README.md](../equipo/README.md). Cada sesión activa un solo rol; consultar los demás permite coordinar sin asumir sus responsabilidades.
+
 El integrante 1 es lead y coordinador. Prepara con Claude la base y sus integraciones. Los integrantes 2 y 3 dirigen dos frentes técnicos en paralelo, analizan y verifican el trabajo de Claude. El integrante 4 comprende el reto y prepara documentos, presentación y video desde el inicio. No se asignan horas obligatorias ni se anticipa el enunciado.
 
 ## Lead y coordinador

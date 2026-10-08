@@ -5,6 +5,7 @@ Plantilla para cuatro integrantes con Claude Code como desarrollador principal. 
 ## Empezar
 
 1. Leer el [roadmap](docs/roadmap.md) y el [protocolo completo para Claude](docs/contexto-equipo-claude.md).
+   Cada integrante utiliza su [perfil y prompt inicial](equipo/README.md). Los cuatro archivos también incluyen objetivo/instrucciones para un Proyecto de Claude.
 2. Revisar [roles y tareas](docs/roles.md), [integraciones con Claude](docs/integraciones-claude.md) y completar la [matriz de preparación](docs/preparacion.md).
 3. Registrar requisitos y tareas en [tareas](docs/tareas.md) cuando se conozca el enunciado.
 4. Subir material a [features/](features/README.md) y mantener su [índice](features/INDEX.md). Actualizar [avances](docs/avances.md), [decisiones](docs/decisiones.md), [evidencias](docs/evidencias.md), [incidencias](docs/incidencias.md) y [deuda técnica](docs/deuda-tecnica.md) cuando corresponda.

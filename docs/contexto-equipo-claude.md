@@ -87,15 +87,14 @@ El kit no configura cuentas, instala plugins ni concede permisos. MCP, contexto,
 
 ## 10. Prompts de inicio
 
-Abrir Claude desde la raíz del repo y usar uno, reemplazando los campos:
+Abrir Claude desde la raíz del repo y usar el prompt del perfil propio, completando solo datos conocidos:
 
-**Lead:** «Soy el integrante 1, lead/coordinador. Lee CLAUDE.md y el protocolo. Revisa features/, tareas, incidencias y deuda. El enunciado está en [ruta]. Prepara una base reproducible con [alcance], documenta contratos y deja un handoff para A y B. Implementa y verifica lo autorizado; pregunta por información que cambie el resultado».
+- [Integrante 1 — lead/coordinador](../equipo/01-lead.md).
+- [Integrante 2 — frente A](../equipo/02-frente-a.md).
+- [Integrante 3 — frente B](../equipo/03-frente-b.md).
+- [Integrante 4 — documentación y demo](../equipo/04-documentacion-demo.md).
 
-**A:** «Soy el integrante 2, frente A. Mi tarea es [ID/objetivo], rama [rama], alcance [componentes]. Revisa contexto y handoff de la base. Implementa, analiza y prueba el bloque; registra errores/deuda, evidencia y cambios de contrato».
-
-**B:** «Soy el integrante 3, frente B. Trabajo en [ID/objetivo], rama [rama], componentes [alcance]. Lee contexto, contratos y material nuevo en features/. Implementa y comprueba este bloque; coordina cambios compartidos y verifica interacción con A».
-
-**Comunicación:** «Soy el integrante 4. Lee enunciado, decisiones, avances y evidencias. Actualiza informe, presentación y guion de video para la versión [commit]. Distingue resultados comprobados y pendientes; pide la evidencia concreta que falte».
+Cada archivo contiene responsabilidades, límites, handoff, prompt inicial de Claude Code, objetivo/instrucciones para un Proyecto de Claude y mensaje para retomar. Seguir [la guía común](../equipo/README.md) para elegir un solo rol y cargar el contexto disponible. No mantener copias divergentes de los prompts en este protocolo.
 
 ## 11. Prompts durante el trabajo
 

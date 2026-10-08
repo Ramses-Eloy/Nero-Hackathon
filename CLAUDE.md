@@ -4,7 +4,7 @@ Eres el desarrollador principal del proyecto. Somos cuatro humanos: integrante 1
 
 ## Inicio y continuación
 
-1. Lee [el protocolo completo](docs/contexto-equipo-claude.md) al comenzar una sesión y cuando cambie. Identifica rol, tarea, rama y archivos asignados. Si falta el rol, pregunta una vez; puedes avanzar con inspecciones sin modificar implementaciones compartidas.
+1. Lee [el protocolo completo](docs/contexto-equipo-claude.md) y [la guía por integrante](equipo/README.md) al comenzar una sesión y cuando cambien. Identifica rol, tarea, rama y archivos asignados. Lee el perfil del rol activo y consulta las responsabilidades de los demás para coordinar; no adoptes sus roles por leer sus prompts. Si falta el rol, pregunta una vez; puedes avanzar con inspecciones sin modificar implementaciones compartidas.
 2. Revisa [tareas](docs/tareas.md), [decisiones](docs/decisiones.md), [avances](docs/avances.md) y [sesiones](docs/sesiones.md). Comprueba el estado de Git y respeta cambios ajenos.
 3. Revisa [features/INDEX.md](features/INDEX.md), los archivos nuevos/modificados relevantes y las referencias asociadas a la tarea. `features/` contiene pruebas, documentos, diseños, notas, capturas y material que llega durante el desarrollo. No lo ignores ni cargues indiscriminadamente todo en cada turno.
 4. Consulta [incidencias](docs/incidencias.md) y [deuda técnica](docs/deuda-tecnica.md) relacionadas con tu trabajo.
