@@ -1,0 +1,34 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+CLAUDE.local.md
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Terraform: conservar .tf y .terraform.lock.hcl; excluir estado y planes
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+!*.example.tfvars
+!*.example.tfvars.json
+crash.log
+
+# Dependencias y compilación
+node_modules/
+bin/
+obj/
+dist/
+__pycache__/
+.venv/
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+*.tmp
