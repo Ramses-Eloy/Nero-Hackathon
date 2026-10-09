@@ -1,0 +1,13 @@
+{
+  "id_envio": "2224-002",
+  "respuesta_exacta": "10.0.0.2, 10.221.19.100, 10.228.182.201",
+  "resultado": "incorrecta",
+  "feedback_visible": "incorrect",
+  "fecha_hora_visible": "October 9th, 11:28:57 AM",
+  "zona_horaria_plataforma": null,
+  "consumio_intento": true,
+  "intentos_restantes": 1,
+  "fuente_presupuesto": "Dos envios incorrectos visibles y limite inicial de tres; presupuesto calculado, no contador restante en esta captura",
+  "fuente": "Captura codex-clipboard-99bd600e-b15a-414e-8c45-08855d55723e.png y confirmacion humana",
+  "puntos": null
+}
