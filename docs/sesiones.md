@@ -24,3 +24,14 @@ Plantilla:
 - Registro publicado / commit o sincronización pendiente: este handoff.
 - Próximo paso y quién lo toma: I4 entrega la primera pregunta y evidencia; autorización de envío por pregunta explícita.
 
+
+## 2026-10-08 22:00 America/Bogota — I4 / Claude Code (local Windows)
+- Sesión / integrante / asistente: preparación del checkout local de I4, Claude Code 2.1.295, Opus 5.5. Pareja I3.
+- Rama y commit base: main @ b854925.
+- Preguntas activas y responsable de envío: ninguna.
+- Material nuevo considerado: features/INDEX.md vacío.
+- Evidencia / candidata / dudas pendientes: tests del helper 6/6 OK; prueba LAB en simulaciones/preparacion/I4/nota.md. Sin tenant Dynatrace ni plataforma CTF; dtctl/MCP instalables localmente (ver INC-I4-001). gh y az no instalados (no requeridos).
+- Último envío y resultado confirmado: ninguno.
+- Intentos restantes conocidos: n/a.
+- Registro publicado / commit o sincronización pendiente: este handoff y la nota LAB.
+- Próximo paso y quién lo toma: I4 reabre Claude Code en la raíz del repo para cargar las 7 skills y entrega la primera pregunta.
