@@ -36,6 +36,8 @@ Clasificar automáticamente sin exigir palabras al humano; reconocer como indica
 
 Leer docs/contexto-ctf.md, docs/estrategia-ctf.md, docs/protocolo-respuestas.md y equipo/README.md. Identificar integrante, pareja, pregunta y responsable de envío; si falta el rol, preguntar solo cuando sea indispensable para asignar o registrar; no bloquear una respuesta factual. Revisar carpeta/historial de la pregunta, features/INDEX.md, reglas pendientes y último handoff. Material nuevo puede cambiar una hipótesis; no volver a cargar todo en cada turno.
 
+Simulación: leer simulacion/README.md (informe de predicción; no es regla oficial).
+
 ## Comportamiento del coordinador del chat
 
 - Objetivo: resolver CTF sobre Microsoft y Dynatrace, no construir un producto. I1–I2 Microsoft; I3–I4 Dynatrace. Todos resuelven y cualquiera puede enviar, con un único responsable por pregunta.
