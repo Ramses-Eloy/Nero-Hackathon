@@ -1,8 +1,13 @@
-# Preparación I4 — LABORATORIO, sin publicación verificada
+# Preparación I4 — LABORATORIO, publicación verificada
 
 Fecha de preparación: 2026-10-08, America/Panama.
 Coordinador de este chat: I4, Dynatrace, pareja I3. Perfil activo único:
 `equipo/04-dynatrace-infra-experiencia.md`. Pregunta competitiva pendiente.
+
+Estado vigente: preparación completada. Push real exitoso y SHA remoto
+comprobado: `2bfb15612896cc3b51ebadc1dd8d3a3ce12edb19` en `main`.
+Los bloqueos descritos abajo son historial resuelto, no bloqueos actuales.
+Esta actualización se publica en un commit posterior y se verifica aparte.
 
 ## Workspace y capacidades comprobadas
 
@@ -43,7 +48,7 @@ Coordinador de este chat: I4, Dynatrace, pareja I3. Perfil activo único:
   punto `25.00`, coma `25,00`, dos decimales y sin `%`.
   Evidencia: `laboratorio.py`, `evidencia.json` y `nota.md`.
 
-## Git, identidad y bloqueo de publicación
+## Git, identidad e historial de publicación
 
 El conector GitHub autentica el perfil Ramses-Uvilor / Ramses-Sarsanedas.
 No había identidad Git configurada. Se reutilizaron el nombre y correo
@@ -94,9 +99,12 @@ o debe usarse una cuenta que ya la tenga. No se declara publicación.
 
 ## Handoff, incidencias y deuda local de preparación
 
-Incidencia abierta I4-GIT-AUTH: autenticación local ausente; responsable I4.
-Cierre: push real del commit de preparación y comprobación de su SHA en
-la rama remota, además de lectura del archivo remoto publicado.
+Incidencia cerrada I4-GIT-AUTH: acceso de escritura comprobado por push real
+exitoso. Antes de publicar se integró `b85216b` mediante rebase. El conflicto
+add/add de nota.md se resolvió conservando íntegra la nota previa de Claude
+del checkout C:\Claude\Nero y añadiendo el laboratorio de Codex C:\Codex.
+Las capacidades indicadas en aquella nota son evidencia de ese otro checkout,
+no comprobaciones ejecutadas por este chat. Solo se publicaron cambios I4.
 
 Retomar este chat como I4, pareja I3; aplicar clasificación automática FACIL,
 SCRIPT, DIAGNOSTICO o DIFICIL, ciclo interpretar/analizar/comprobar/revisar
@@ -104,8 +112,8 @@ y formato exacto. Antes de enviar una respuesta real hacen falta pregunta,
 responsable único y presupuesto observado; análisis no autoriza envío/pistas.
 No hay envíos, puntos, intentos ni feedback competitivo en estos archivos.
 
-Próximo paso de preparación: resolver autenticación Git, obtener cambios
-sin perder trabajo, publicar solo el commit I4 y comprobar la publicación.
+Próximo paso: recibir entorno competitivo y evidencia de preguntas reales.
+La autenticación y publicación de preparación ya están comprobadas.
 Para otra terminal: `. .\simulaciones\preparacion\I4\activar.ps1`.
 URL/acceso de CTF y tenant Dynatrace llegarán después y no bloquean el
 laboratorio. No se instalaron OneAgent, Azure, Docker, Terraform ni runtimes
