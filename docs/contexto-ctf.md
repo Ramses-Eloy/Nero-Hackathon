@@ -36,4 +36,6 @@ Leer features/INDEX.md al retomar y cuando el equipo anuncie nuevas reglas/evide
 
 ## Aclaración de formato confirmada por el equipo
 
+Actualizacion 2026-10-09: el usuario confirma que 2221 rechazaba espacios despues de comas, aunque las aplicaciones eran correctas. En banderas de listas usar comas sin espacios. Ver features/banderas-comas-sin-espacios.md.
+
 Formato de respuestas: según la aclaración del equipo, mayúsculas/minúsculas y puntuación de estilo no requieren revisión ni preguntas adicionales por defecto. Si el enunciado exige un formato, cumplirlo exactamente: números en lugar de palabras, cantidad de decimales, punto o coma decimal, unidad, porcentaje o estructura indicada. No agregar texto, unidades ni signos que el formato excluya. No alterar puntuación que cambie el valor o la sintaxis de IDs, URLs, código o consultas. El historial conserva exactamente lo enviado, sin normalizarlo.

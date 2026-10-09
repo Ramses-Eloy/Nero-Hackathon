@@ -6,3 +6,5 @@
 - 2026-10-08: cada envío real, correcto o incorrecto, se registra tras confirmación del humano; chat no presume acceso automático ni aceptación.
 
 Nuevas entradas: fecha, fuente, decisión, motivo, preguntas afectadas y forma de comprobar. No repetir todo el historial de intentos aquí.
+
+- 2026-10-09: usuario confirma rechazo de 2221 por espacios despues de comas; nombres correctos. Usar comas sin espacios en listas, incluido 2224. Fuente: features/banderas-comas-sin-espacios.md. Detalles de nuevo envio y puntaje no confirmados.

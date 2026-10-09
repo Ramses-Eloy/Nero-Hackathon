@@ -37,6 +37,8 @@ El usuario confirma envio de `ssh, tripadvisor, salesforce`. Captura: `Incorrect
 
 ## Comprobacion tras el rechazo
 
+Actualizacion humana posterior 2026-10-09: las tres aplicaciones eran correctas; el rechazo se debia a espacios despues de las comas. Correccion `ssh,tripadvisor,salesforce`. Causa ya aclarada. Preservar primer envio incorrecto; no inferir detalles de otro envio ni presupuesto restante actualizado.
+
 Consulta independiente sobre el JSON original, misma ventana Last 3 days:
 
 ```dql

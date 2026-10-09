@@ -1,0 +1,11 @@
+{
+  "tipo": "aclaracion_humana",
+  "fecha_registro": "2026-10-09",
+  "confirmacion": "la bandera no aceptaba espacios luegos de las comas, pero las 3 aplicaciones estaban correctas",
+  "valor_corregido": "ssh,tripadvisor,salesforce",
+  "nuevo_envio_exacto": null,
+  "feedback_exacto": null,
+  "intentos_restantes": null,
+  "puntos": null,
+  "nota": "No contar este evento como intento; el usuario confirma causa de rechazo y aplicaciones, sin presupuesto actualizado."
+}

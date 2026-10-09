@@ -20,3 +20,5 @@ El formato CTF, reparto 2+2 y uso de IA están confirmados en contexto-ctf.md. L
 | Disponibilidad técnica de CLI, MCP, tokens y conectores | Pendiente | | Herramientas reales |
 
 Nueva información: guardar fuente en features/, actualizar índice, anotar cambio en decisiones.md y revisar preguntas afectadas. Una aclaración de la organización más reciente se comunica al equipo antes de cambiar prácticas ya acordadas.
+
+2026-10-09: separador de listas confirmado por el usuario tras 2221: comas sin espacios; excepcion concreta a estilo flexible. Valor corregido: ssh,tripadvisor,salesforce.
