@@ -25,8 +25,9 @@ Coordinador de este chat: I4, Dynatrace, pareja I3. Perfil activo único:
   nombres únicos coinciden con carpetas, metadatos name/description no vacíos,
   cuerpo de instrucciones presente. Evidencia: `skills.json`.
   Disponibles en esta sesión por lectura directa; ctf-revisar-respuesta
-  aplicada a la prueba. No se afirma aparición verificada en el selector
-  automático del cliente ni ejecución de las otras seis skills.
+  aplicada a la prueba. Al retomar, las siete aparecen también en el catálogo
+  de skills suministrado a esta sesión por el cliente. No se afirma ejecución
+  de las otras seis skills.
   No hubo duplicación global ni cambios a configuración global.
 - Herramientas nativas collaboration disponibles; prueba real delegada a
   `/root/revision_lab_i4`, de solo lectura. Revisión completada: cálculo
@@ -67,6 +68,22 @@ fallido por la misma ausencia de autenticación; no se publicó.
 `4fa0c02659eeabbeac6bc372490bd28a44da5f3f`, distinto del commit local.
 Esta actualización del estado se conserva en un commit local posterior.
 No se autoriza publicar otros archivos.
+
+Reintento solicitado por el usuario: fetch obtuvo `b854925`, con cambios
+remotos solo en docs/incidencias.md y docs/sesiones.md. Se integró mediante
+rebase sin conflictos y sin descartar archivos. Commits I4 resultantes:
+`903da0cac769113b50ac77518d52296c9abd32be` y
+`90ae7c824eafc3c10207005cb83174eeb66d9e89`.
+El push sin interacción volvió a fallar por autenticación local ausente;
+el conector conserva pull=true y push=false. Se inició un push interactivo
+con Git Credential Manager para permitir el login humano. GitHub rechazó
+la cuenta autenticada `AbdielEMG` con HTTP 403:
+`Permission to Ramses-Eloy/Nero-Hackathon.git denied to AbdielEMG`.
+Tras confirmar el humano el login se reintentó sin interacción; GCM no
+enumeró una cuenta persistida y faltó nuevamente Username. Publicación fallida.
+Bloqueo actual: dar permiso de escritura a AbdielEMG en el repo o autenticar
+Git con otra cuenta que ya tenga escritura. No se modificó la identidad
+de autor automáticamente al observar una cuenta de autenticación distinta.
 
 ## Handoff, incidencias y deuda local de preparación
 
