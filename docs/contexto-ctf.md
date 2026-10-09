@@ -1,5 +1,7 @@
 # Contexto vigente — CTF
 
+**Rapidez obligatoria:** en chat, solo respuesta exacta o pregunta indispensable con contexto mínimo. Sin explicación ni narración; evidencia y explicación van al MD de la pregunta. [Modelos y escalado por dificultad](modelos-rapidez.md).
+
 ## Confirmado por el usuario, 8 de octubre de 2026
 
 - La hackathon utiliza Capture the Flag: una plataforma habilita varios retos con preguntas sobre Microsoft y Dynatrace.

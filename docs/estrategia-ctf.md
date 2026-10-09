@@ -1,5 +1,7 @@
 # Estrategia de resolución 2+2
 
+**Rapidez obligatoria:** en chat, solo respuesta exacta o pregunta indispensable con contexto mínimo. Sin explicación ni narración; evidencia y explicación van al MD de la pregunta. [Modelos y escalado por dificultad](modelos-rapidez.md).
+
 Trayectoria flexible: **estudiar y practicar → reconocer el entorno → repartir preguntas → investigar → revisar → enviar → confirmar y registrar → continuar/aprender**. Se puede volver a investigar en cualquier paso. No hay fase de construir un producto ni de preparar presentación/video.
 
 ## Preparación conjunta

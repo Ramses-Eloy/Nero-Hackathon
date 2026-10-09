@@ -1,5 +1,7 @@
 # Asistentes, skills e integraciones para CTF
 
+**Rapidez obligatoria:** en chat, solo respuesta exacta o pregunta indispensable con contexto mínimo. Sin explicación ni narración; evidencia y explicación van al MD de la pregunta. [Modelos y escalado por dificultad](modelos-rapidez.md).
+
 Claude usa CLAUDE.md y .claude/skills/. Codex usa AGENTS.md y .agents/skills/. El contenido de las siete skills es equivalente, con nombres CTF para evitar activar el antiguo flujo de producto. La metadata básica permite descubrirlas; no se han ejecutado aquí contra un entorno de competencia.
 
 | Skill | Resultado |

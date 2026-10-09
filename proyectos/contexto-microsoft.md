@@ -2,6 +2,21 @@
 
 Documento explicativo para adjuntar al crear un proyecto o chat en Claude, Claude Code, Codex o un entorno cloud. Es autónomo para comprender la organización; los archivos vivos del repo se revisan para obtener el estado actualizado. Repositorio: https://github.com/Ramses-Eloy/Nero-Hackathon. Contexto preparado el 8 de octubre de 2026, America/Bogota.
 
+## Ley común: rapidez y salida mínima
+
+**Resolver y responder lo más rápido posible. En el chat, devolver únicamente la respuesta exacta solicitada; si falta un dato indispensable, hacer únicamente la pregunta mínima que permita obtenerlo.** Esta regla rige todos los integrantes, asistentes y skills del repo.
+
+- Sin saludos, introducciones, resumen del contexto, narración del trabajo, explicación, recomendaciones añadidas ni cierre. Una respuesta simple ocupa una línea; un comando/consulta ocupa solo el bloque necesario. Respetar el formato exacto solicitado aunque requiera más líneas.
+- No preguntar datos que ya están en contexto, archivos o herramientas accesibles. Preguntar solo cuando no obtener el dato impida responder correctamente o realizar un envío autorizado. La pregunta incluye únicamente el contexto imprescindible: «¿De qué intervalo: últimos 30 min o el indicado en el reto?».
+- Usar primero evidencia disponible; ejecutar la comprobación mínima pertinente. No cargar todo el repo, navegar por rutina, activar todas las skills ni pedir revisión universal para cada pregunta. Detener la investigación cuando la respuesta esté sustentada. Rapidez no autoriza inventar valores ni gastar intentos con conjeturas.
+- Guardar evidencia, consultas, supuestos, límites y justificación verificable en analisis.md de la pregunta. Tras envío confirmado, guardar respuesta/feedback en intentos/ y actualizar README.md. Registrar hechos y una explicación útil, no un volcado del razonamiento interno del modelo. Una candidata no se registra como envío.
+- Entregar la candidata sin esperar una explicación extensa o un commit de análisis. Después de confirmación real, guardar y sincronizar prontamente el registro mínimo; ampliar la explicación después sin bloquear la siguiente pregunta. No simular tareas en segundo plano ni dejar envíos confirmados sin persistir.
+- Si se pidió registro, basta «Registrado.» cuando esté publicado; si falla, «Push pendiente.» o el bloqueo concreto. No presentar lista de archivos/commits salvo petición. Sin acceso al repo, avisar «Sin acceso al repo.» y entregar el registro cuando sea necesario.
+- No consumir intentos ni pistas por un pedido de análisis; siguen vigentes responsable único, autorización de envío y conservación de errores. Un resultado no confirmado queda pendiente. Respetar instrucciones superiores del entorno y sus avisos obligatorios con el mínimo texto necesario.
+- Explicaciones en chat solo cuando el humano las solicite expresamente. Este modo de competencia es el predeterminado, también en los prompts iniciales y al retomar.
+
+Modelos y selección: docs/modelos-rapidez.md. Recomendar no equivale a cambiar el modelo real: solo afirmar un cambio si se configuró y comprobó.
+
 ## Qué es Nero y cómo funciona la competencia
 
 Nero es un equipo de cuatro personas en la edición 7 de la Hackathon Copa. La estrategia vigente es resolver un CTF en entornos Microsoft y Dynatrace que proporcionará la organización. La plataforma habilita retos con preguntas; hay que investigar sus servicios, datos, scripts o aplicaciones y, cuando el enunciado lo requiera, corregir un problema. Este repositorio organiza preparación, contexto, investigación y respuestas. No es una aplicación que haya que desarrollar como producto ni requiere preparar presentación o video por defecto.
@@ -21,7 +36,7 @@ El usuario confirmó que Claude, Codex y otras IA están permitidos durante toda
 
 Los focos son especialidades de estudio, no exclusividad. Ambos integrantes de cada pareja resuelven, revisan y pueden enviar. Una pareja puede investigar dos preguntas diferentes en paralelo y cruzar revisión cuando haga falta. Se puede pedir apoyo a la otra pareja. I1 coordina bloqueos y duplicaciones sin convertirse en aprobador de cada análisis.
 
-Cada chat representa a un integrante concreto. Saber que pertenece a Microsoft o Dynatrace no basta para atribuirle identidad: si falta I1/I2/I3/I4, preguntarlo una vez y continuar con estudio que no dependa de ese dato. No asumir memoria compartida entre chats.
+Cada chat representa a un integrante concreto. Saber que pertenece a Microsoft o Dynatrace no basta para atribuirle identidad: si falta I1/I2/I3/I4, preguntarlo solo cuando sea indispensable para asignar o registrar; no bloquear una respuesta factual. No asumir memoria compartida entre chats.
 
 Para tomar una pregunta, anunciar en el canal humano: «Tomo [ID], envío I[n], revisor I[n]». Confirmar que nadie más la esté enviando y registrar el acuerdo. Git conserva cambios pero no bloquea dos envíos simultáneos. Tener siempre un único responsable de envío por pregunta activa. Dos chats del mismo integrante deben trabajar en tareas o archivos distintos para evitar pisarse.
 
@@ -40,6 +55,7 @@ Todas las rutas de esta guía son relativas a la raíz de Nero-Hackathon.
 | docs/estrategia-ctf.md | Trayectoria flexible y organización 2+2 |
 | docs/protocolo-respuestas.md | Claim, envío, confirmación, registro y sincronización |
 | docs/reglas-pendientes.md | Información todavía desconocida; actualizar con evidencia nueva |
+| docs/modelos-rapidez.md | Selección por rapidez y escalado solo ante dificultad real |
 | docs/asistentes-skills.md | Skills e integraciones pertinentes al CTF |
 | docs/decisiones.md | Decisiones y cambios de interpretación relevantes |
 | docs/sesiones.md | Handoff: quién trabajó, evidencia, estado y próximo paso |
@@ -144,7 +160,7 @@ Tras un error, revisar feedback, formato, fuente, intervalo y presupuesto antes 
 
 ## Cómo debe actuar el coordinador de cada chat
 
-Ayudar a entender la pregunta, cuestionar ambigüedades relevantes y proponer la comprobación mínima que produzca evidencia. Dar interpretación breve, observaciones/hipótesis, siguiente consulta, candidata exacta si está sustentada y dudas que impiden enviar. No asignar porcentajes de confianza inventados ni pedir que el humano vuelva a explicar todo el proyecto en cada turno.
+Ayudar a entender la pregunta, cuestionar ambigüedades relevantes y proponer la comprobación mínima que produzca evidencia. En el chat, dar solo la candidata exacta sustentada o una pregunta imprescindible. Guardar observaciones, explicación y comprobaciones en el MD de la pregunta. No asignar porcentajes de confianza inventados ni pedir que el humano vuelva a explicar todo el proyecto en cada turno.
 
 Las siete skills son ctf-cuestionar, ctf-diagnosticar, ctf-consultar, ctf-contrastar, ctf-revisar-respuesta, ctf-aprender-error y ctf-incorporar-contexto. Claude tiene sus archivos en .claude/skills/ y Codex en .agents/skills/. Un prompt claro sirve aunque no estén disponibles como invocaciones. Son procedimientos de análisis, no conectores, permisos ni evidencia de ejecución. No asumir que el uso de una skill autoriza enviar respuestas o gastar pistas.
 
@@ -177,7 +193,7 @@ Este proyecto/chat pertenece a la pareja Microsoft — integrantes I1 e I2. Soy 
 Usa proyectos/contexto-microsoft.md como explicación completa del funcionamiento de Nero. Si tienes acceso al repo, lee CLAUDE.md en Claude o AGENTS.md en Codex, mi perfil en equipo/, docs/contexto-ctf.md, docs/protocolo-respuestas.md, features/INDEX.md, estudio/microsoft.md y los archivos de la pregunta. Consulta otras fuentes según necesidad. Si solo hay adjuntos, distingue lo disponible de lo que falta y no afirmes acceso Git/plataforma.
 Activa solo mi rol, conoce los otros tres y acuerda responsable único de envío por pregunta. IA está permitida. Ayúdame a interpretar, investigar, consultar, contrastar y preparar una candidata sustentada; no gastes intentos ni pistas por una petición de análisis. No construyas un producto por defecto.
 Cuando anuncie material nuevo en features/, indexa, analiza e incorpora sus efectos. Cuando confirme un envío, registra respuesta y feedback real aunque sea incorrecto, conserva desconocidos y sincroniza los archivos pertinentes si tienes acceso. No inventes puntos, presupuesto, ejecución ni publicación. Mantén incidencias, deuda y handoff verificables.
-Empieza indicando mi rol, tu acceso real, contexto entendido y pregunta activa. Pide solo datos faltantes que afecten el siguiente paso y propone la comprobación mínima útil.
+Aplica la ley de rapidez: responde solo el valor exacto o la pregunta imprescindible; no expliques el contexto al iniciar. Guarda explicación/evidencia en el MD del reto. Si aún no te di una pregunta, basta «Listo». Selección de modelos: docs/modelos-rapidez.md.
 ```
 
 Para retomar: «Retoma como [I]. Revisa el handoff, features/INDEX.md y el historial de [pregunta]. Confirma quién envía, presupuesto conocido, cambios publicados/pendientes y continúa desde la evidencia actual». No empezar desde cero si el historial ya contiene investigación.

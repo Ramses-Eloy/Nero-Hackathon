@@ -6,6 +6,21 @@ Resolver preguntas de su plataforma con evidencia, cuidar intentos y registrar t
 
 Ambos integrantes de la pareja deben poder analizar, revisar y enviar. El foco no otorga exclusividad. En cada pregunta definir responsable único de envío y revisor. Apoyo cruzado con la otra pareja cuando resulte útil.
 
+## Ley común: rapidez y salida mínima
+
+**Resolver y responder lo más rápido posible. En el chat, devolver únicamente la respuesta exacta solicitada; si falta un dato indispensable, hacer únicamente la pregunta mínima que permita obtenerlo.** Esta regla rige todos los integrantes, asistentes y skills del repo.
+
+- Sin saludos, introducciones, resumen del contexto, narración del trabajo, explicación, recomendaciones añadidas ni cierre. Una respuesta simple ocupa una línea; un comando/consulta ocupa solo el bloque necesario. Respetar el formato exacto solicitado aunque requiera más líneas.
+- No preguntar datos que ya están en contexto, archivos o herramientas accesibles. Preguntar solo cuando no obtener el dato impida responder correctamente o realizar un envío autorizado. La pregunta incluye únicamente el contexto imprescindible: «¿De qué intervalo: últimos 30 min o el indicado en el reto?».
+- Usar primero evidencia disponible; ejecutar la comprobación mínima pertinente. No cargar todo el repo, navegar por rutina, activar todas las skills ni pedir revisión universal para cada pregunta. Detener la investigación cuando la respuesta esté sustentada. Rapidez no autoriza inventar valores ni gastar intentos con conjeturas.
+- Guardar evidencia, consultas, supuestos, límites y justificación verificable en analisis.md de la pregunta. Tras envío confirmado, guardar respuesta/feedback en intentos/ y actualizar README.md. Registrar hechos y una explicación útil, no un volcado del razonamiento interno del modelo. Una candidata no se registra como envío.
+- Entregar la candidata sin esperar una explicación extensa o un commit de análisis. Después de confirmación real, guardar y sincronizar prontamente el registro mínimo; ampliar la explicación después sin bloquear la siguiente pregunta. No simular tareas en segundo plano ni dejar envíos confirmados sin persistir.
+- Si se pidió registro, basta «Registrado.» cuando esté publicado; si falla, «Push pendiente.» o el bloqueo concreto. No presentar lista de archivos/commits salvo petición. Sin acceso al repo, avisar «Sin acceso al repo.» y entregar el registro cuando sea necesario.
+- No consumir intentos ni pistas por un pedido de análisis; siguen vigentes responsable único, autorización de envío y conservación de errores. Un resultado no confirmado queda pendiente. Respetar instrucciones superiores del entorno y sus avisos obligatorios con el mínimo texto necesario.
+- Explicaciones en chat solo cuando el humano las solicite expresamente. Este modo de competencia es el predeterminado, también en los prompts iniciales y al retomar.
+
+Modelos y selección: docs/modelos-rapidez.md. Recomendar no equivale a cambiar el modelo real: solo afirmar un cambio si se configuró y comprobó.
+
 ## Trabajo del chat
 
 Cuestionar el enunciado, separar hechos/hipótesis, preparar consulta o script mínimo, interpretar evidencia, revisar candidata/formato y presupuesto. No enviar por un pedido de análisis ni usar pistas automáticamente. Confirmado un envío humano, registrar correcta/incorrecta/pendiente y sincronizar pregunta sin ocultar fallos. Mantener handoff y pendientes operativos.
@@ -16,7 +31,7 @@ Cuestionar el enunciado, separar hechos/hipótesis, preparar consulta o script m
 Soy I2 de Nero, Microsoft — aplicaciones y DevOps. Lee CLAUDE.md, equipo/README.md y equipo/02-microsoft-apps-devops.md; consulta responsabilidades de todos pero activa solo mi rol. Lee contexto-ctf, estrategia y protocolo de respuestas de docs/, guía de estudio de mi plataforma, features/INDEX.md y el historial de la pregunta actual.
 Mi pareja es I1. Mi foco: APIs, frontend/backend, scripts entregados, Git/pipelines, Terraform, Application Insights y KQL. Revisión de consultas/configuración con I1.
 La pregunta actual es [ID/ruta o pendiente]. Primero interpreta qué pide, comprueba entorno/formato/intentos y propone el paso mínimo para obtener evidencia. No inventes una candidata ni gastes intentos/pistas. IA está permitida según las reglas confirmadas; usa herramientas realmente conectadas y datos disponibles.
-Cuando confirme un envío y feedback, guarda el evento aunque sea incorrecto, actualiza estado y sincroniza solo los archivos de esa pregunta al repo. Sin feedback o presupuesto visible, registra desconocido. Empieza con contexto entendido, rol, pregunta, datos faltantes y siguiente paso.
+Cuando confirme un envío y feedback, guarda el evento aunque sea incorrecto, actualiza estado y sincroniza solo los archivos de esa pregunta al repo. Sin feedback o presupuesto visible, registra desconocido. Responde únicamente el valor solicitado o una pregunta imprescindible. Sin explicar contexto, pasos ni fundamento en chat: guárdalos en el MD. Si todavía no hay pregunta, basta «Listo».
 ```
 
 ## Prompt inicial para Codex
@@ -34,5 +49,5 @@ No envíes ni abras pistas por una solicitud de análisis. Después de confirmac
 ## Retomar
 
 ```text
-Retoma como I2. Revisa último handoff, material nuevo y eventos de [pregunta]. Verifica quién envía y el presupuesto conocido. Continúa desde la evidencia actual, sin repetir una respuesta incorrecta ni gastar intentos automáticamente.
+Aplica salida mínima; no resumas contexto en chat. Retoma como I2. Revisa último handoff, material nuevo y eventos de [pregunta]. Verifica quién envía y el presupuesto conocido. Continúa desde la evidencia actual, sin repetir una respuesta incorrecta ni gastar intentos automáticamente.
 ```

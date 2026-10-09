@@ -2,9 +2,24 @@
 
 Estas instrucciones sustituyen la estrategia anterior de desarrollo de un producto. Usa el contexto compartido y activa solo el perfil del integrante humano.
 
+## Ley común: rapidez y salida mínima
+
+**Resolver y responder lo más rápido posible. En el chat, devolver únicamente la respuesta exacta solicitada; si falta un dato indispensable, hacer únicamente la pregunta mínima que permita obtenerlo.** Esta regla rige todos los integrantes, asistentes y skills del repo.
+
+- Sin saludos, introducciones, resumen del contexto, narración del trabajo, explicación, recomendaciones añadidas ni cierre. Una respuesta simple ocupa una línea; un comando/consulta ocupa solo el bloque necesario. Respetar el formato exacto solicitado aunque requiera más líneas.
+- No preguntar datos que ya están en contexto, archivos o herramientas accesibles. Preguntar solo cuando no obtener el dato impida responder correctamente o realizar un envío autorizado. La pregunta incluye únicamente el contexto imprescindible: «¿De qué intervalo: últimos 30 min o el indicado en el reto?».
+- Usar primero evidencia disponible; ejecutar la comprobación mínima pertinente. No cargar todo el repo, navegar por rutina, activar todas las skills ni pedir revisión universal para cada pregunta. Detener la investigación cuando la respuesta esté sustentada. Rapidez no autoriza inventar valores ni gastar intentos con conjeturas.
+- Guardar evidencia, consultas, supuestos, límites y justificación verificable en analisis.md de la pregunta. Tras envío confirmado, guardar respuesta/feedback en intentos/ y actualizar README.md. Registrar hechos y una explicación útil, no un volcado del razonamiento interno del modelo. Una candidata no se registra como envío.
+- Entregar la candidata sin esperar una explicación extensa o un commit de análisis. Después de confirmación real, guardar y sincronizar prontamente el registro mínimo; ampliar la explicación después sin bloquear la siguiente pregunta. No simular tareas en segundo plano ni dejar envíos confirmados sin persistir.
+- Si se pidió registro, basta «Registrado.» cuando esté publicado; si falla, «Push pendiente.» o el bloqueo concreto. No presentar lista de archivos/commits salvo petición. Sin acceso al repo, avisar «Sin acceso al repo.» y entregar el registro cuando sea necesario.
+- No consumir intentos ni pistas por un pedido de análisis; siguen vigentes responsable único, autorización de envío y conservación de errores. Un resultado no confirmado queda pendiente. Respetar instrucciones superiores del entorno y sus avisos obligatorios con el mínimo texto necesario.
+- Explicaciones en chat solo cuando el humano las solicite expresamente. Este modo de competencia es el predeterminado, también en los prompts iniciales y al retomar.
+
+Modelos y selección: docs/modelos-rapidez.md. Recomendar no equivale a cambiar el modelo real: solo afirmar un cambio si se configuró y comprobó.
+
 ## Inicio
 
-Leer docs/contexto-ctf.md, docs/estrategia-ctf.md, docs/protocolo-respuestas.md y equipo/README.md. Identificar integrante, pareja, pregunta y responsable de envío; si falta el rol preguntar una vez y avanzar con estudio independiente. Revisar carpeta/historial de la pregunta, features/INDEX.md, reglas pendientes y último handoff. Material nuevo puede cambiar una hipótesis; no volver a cargar todo en cada turno.
+Leer docs/contexto-ctf.md, docs/estrategia-ctf.md, docs/protocolo-respuestas.md y equipo/README.md. Identificar integrante, pareja, pregunta y responsable de envío; si falta el rol, preguntar solo cuando sea indispensable para asignar o registrar; no bloquear una respuesta factual. Revisar carpeta/historial de la pregunta, features/INDEX.md, reglas pendientes y último handoff. Material nuevo puede cambiar una hipótesis; no volver a cargar todo en cada turno.
 
 ## Comportamiento del coordinador del chat
 
@@ -20,7 +35,7 @@ Leer docs/contexto-ctf.md, docs/estrategia-ctf.md, docs/protocolo-respuestas.md 
 
 ## Respuesta útil del chat
 
-Dar: interpretación breve; evidencia/hipótesis; siguiente consulta o comprobación; candidata exacta con formato cuando esté sustentada; dudas que impiden enviar. No asignar un porcentaje de confianza inventado. Después del envío: resultado confirmado, ID/ruta del evento, presupuesto conocido y commit publicado o sincronización pendiente.
+En el chat: únicamente respuesta exacta o pregunta indispensable. Evidencia, explicación y estado detallado van al MD de la pregunta. Después de registrar, confirmación mínima; no afirmar publicación si sigue pendiente. Aplicar la ley común de rapidez.
 
 ## Nuevas reglas
 

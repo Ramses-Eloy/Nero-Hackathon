@@ -42,7 +42,7 @@ Si falta un dato, guardarlo como desconocido y preguntar únicamente lo que afec
 3. Actualizar estado y síntesis. No marcar correcta ni descontar un intento desconocido por inferencia. Si un feedback pendiente se resuelve luego, añadir un evento de actualización del mismo envío; no contar dos intentos.
 4. Revisar Git y hacer commit solo de archivos relacionados. El usuario autoriza esta sincronización a Ramses-Eloy/Nero-Hackathon al confirmar cada envío. No agregar cambios ajenos con un `git add --all` indiscriminado.
 5. Sincronizar rama acordada. Para registros ligeros se puede usar main; antes de subir, obtener cambios y resolver aportaciones de todos. Si push se rechaza, no force-push: conservar registro, integrar cambios y reintentar. No usar un rebase con archivos ajenos sin resolver.
-6. Confirmar al humano: archivo/evento, resultado, pendientes y commit publicado. Sin conexión o permiso técnico, registrar localmente y avisar que el push sigue pendiente.
+6. Confirmación mínima en chat: «Registrado.» si se comprobó publicación; «Push pendiente.» si falta sincronización, o bloqueo concreto imprescindible. Rutas, commit, evidencia y explicación van al MD de la pregunta, salvo que el humano los pida. Sin acceso técnico, no afirmar escritura/publicación.
 
 No cambiar la visibilidad del repo ni publicar tokens, cookies, claves o capturas con credenciales. El permiso de usar IA está confirmado; no introducir nuevamente una prohibición general de acceso a datos del reto.
 

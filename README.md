@@ -1,5 +1,7 @@
 # Nero — Hackathon Copa CTF
 
+**Rapidez obligatoria:** en chat, solo respuesta exacta o pregunta indispensable con contexto mínimo. Sin explicación ni narración; evidencia y explicación van al MD de la pregunta. [Modelos y escalado por dificultad](docs/modelos-rapidez.md).
+
 Preparación y coordinación de un equipo de cuatro para resolver preguntas y retos en los entornos Microsoft y Dynatrace proporcionados por la competencia. El objetivo es acumular puntos del equipo con respuestas fundamentadas, cuidando intentos limitados y pistas con penalización.
 
 La estrategia vigente reemplaza el desarrollo de un producto, presentación y video. Sus archivos fueron retirados de la versión activa; el historial Git permite recuperar el trabajo anterior. No hay retos reales registrados todavía.
