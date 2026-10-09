@@ -63,6 +63,8 @@ Resultado tecnico sigue sustentado por lookup y JSON. Un orden especifico del va
 
 ## Segunda confirmacion y reejecucion solicitada
 
+Pista 01/02 aportada despues por captura del usuario: filtrar registros con ssl_cipher_suite_id y agregar con summarize los servidores dst_ip y cifrado. Coste mostrado 30 puntos; descuento real no visible. Confirma el campo destino y criterio ya utilizados, sin aportar nuevos servidores ni modificar umbral. Queda sin explicar rechazo de la lista calculada. No abrir segunda pista ni enviar de nuevo automaticamente.
+
 Usuario proporciona segunda captura: envio con espacios `10.0.0.2, 10.221.19.100, 10.228.182.201`, October 9th, 11:28:57 AM, resultado incorrect. La captura contiene tambien el primer envio: son dos intentos separados. Queda uno por limite inicial de tres. La respuesta sigue sin aceptacion; no recomendar usar el ultimo intento con los mismos datos.
 
 Se reejecuto la consulta del JSON original con IP destino privada, lookup de cipher, key_bits <256 y agrupacion por IP/cipher/key/suite, mostrando puertos. Resultado repetido: 10.0.0.2, cipher47,128 bits; 10.221.19.100,cipher49199,128 bits; 10.228.182.201,cipher4,128 bits. Un registro y puerto443 por IP. Consulta visible en el notebook de trabajo.

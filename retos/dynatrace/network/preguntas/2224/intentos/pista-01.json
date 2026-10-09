@@ -1,0 +1,12 @@
+{
+  "tipo": "pista_observada",
+  "pista": "01/02",
+  "coste_mostrado": 30,
+  "puntos_descontados_observados": null,
+  "fuente": "Captura del usuario codex-clipboard-1b088ca9-49fe-43e4-a965-159ae23f6d77.png",
+  "texto": [
+    "Utilice el comando filter o filterOut para centrarse en los registros en los que se haya detectado el cifrado SSL (ssl_cipher_suite_id).",
+    "Utilice el comando summarize para agregar registros de todos los servidores (dst_ip) y su cifrado SSL."
+  ],
+  "nota": "Pista ya abierta por el usuario; el asistente no abrio pistas. No contar como envio."
+}
