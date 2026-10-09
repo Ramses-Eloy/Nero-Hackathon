@@ -1,0 +1,23 @@
+{
+  "evento_id": "tipo-suscripcion-envio-2",
+  "envio_id": "tipo-suscripcion-envio-2",
+  "tipo_evento": "envio",
+  "fecha": "2026-10-09T10:17:31-05:00",
+  "dominio": "microsoft",
+  "reto_id": "reto-azure-rg",
+  "pregunta_id": "tipo-suscripcion",
+  "actor": "I2",
+  "confirmado_por": "I2",
+  "confirmacion_humana": true,
+  "respuesta_enviada": "Azure Sponsorship",
+  "resultado": "incorrecta",
+  "feedback": "Incorrect",
+  "fuente_feedback": "confirmacion_humana",
+  "consumio_intento": true,
+  "intentos_restantes_observados": 0,
+  "pistas_usadas": [],
+  "costo_pistas_observado": null,
+  "cambio_puntos_observado": null,
+  "evidencias": [],
+  "actualiza_evento_id": null
+}

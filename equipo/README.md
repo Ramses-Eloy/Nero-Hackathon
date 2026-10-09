@@ -14,3 +14,5 @@ Reparto confirmado por el usuario. Todos resuelven; roles anteriores de base/pro
 Cada chat activa un integrante y conoce los demás. Leer entrada del asistente, perfil propio, contexto, estrategia, protocolo, guía de plataforma, material nuevo y carpeta de pregunta. Leer fuentes extensas según necesidad, no todo en cada turno. Registrar rama, claim y handoff. Coordinar envíos por canal humano: Git no impide duplicación concurrente.
 
 Claude Code abre desde repo y usa su prompt de perfil. Codex usa AGENTS.md y el mismo perfil. Un Proyecto de Claude requiere instrucciones y conocimiento actualizado; su descripción no basta. Las herramientas locales/MCP y escritura Git no se presuponen en un chat sin conexión. Ver [asistentes y skills](../docs/asistentes-skills.md).
+
+Todos los integrantes deben conocer la [simulación de la competencia](../simulacion/README.md) (predicción, no regla oficial).
