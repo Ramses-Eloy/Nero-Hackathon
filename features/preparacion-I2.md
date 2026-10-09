@@ -17,4 +17,5 @@ Fecha: 2026-10-08. Equipo local Windows 11 Pro Education (10.0.26200). Sin crede
 ## Pendiente
 
 - [ ] Acceso a la suscripción Azure del evento. `az login --use-device-code` completó la autenticación con una cuenta Microsoft personal, pero Azure respondió «No subscriptions found». No se creó suscripción ni prueba gratuita. Siguiente paso: cuando el evento entregue cuenta/tenant, ejecutar `az login` (o `az login --tenant <tenant>`), luego `az account list -o table` y `az account set --subscription <id>` con la suscripción confirmada.
+  - Aviso de I2 (2026-10-08): el acceso se entrega el 2026-10-09 mediante un script de la organización que pide el número de grupo. Al recibirlo: leer el script antes de ejecutarlo, no guardar credenciales que genere y luego listar suscripciones.
 - [ ] Archivos Terraform/scripts de la competencia. No se ejecutó `terraform init/plan/apply/destroy` ni despliegues.
