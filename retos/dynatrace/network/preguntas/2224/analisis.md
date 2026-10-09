@@ -52,3 +52,11 @@ fetch logs
 ```
 
 Resultado: las mismas tres IP, un log por servidor, puerto 443, clave 128, ciphers 47, 49199 y 4 respectivamente. No hay evidencia nueva para otra lista. Causa del rechazo sigue pendiente: primero contrastar respuesta exacta enviada y presupuesto actualizado. No probar permutaciones del orden o variantes con intentos limitados.
+
+## Confirmacion exacta y trafico inverso
+
+Captura de Submissions confirma envio exacto sin espacios: `10.0.0.2,10.221.19.100,10.228.182.201`, resultado `incorrect`, October 9th, 11:20:37 AM (zona no visible). Usuario confirma dos intentos restantes. Descartada diferencia entre candidata y texto enviado, incluido separador.
+
+Consulta sobre origen RFC1918, cipher del lookup <256 y puerto origen <=1024, agregada con count y collectDistinct(src_ip): logs=0, sources=null. No se encontraron servidores adicionales en este criterio de trafico inverso. No prueba todos los posibles puertos de servidor, pero las fuentes privadas vistas previamente usaban puertos cliente altos y destino443.
+
+Resultado tecnico sigue sustentado por lookup y JSON. Un orden especifico del validador o una clave incorrecta de plataforma siguen siendo hipotesis sin confirmar. Necesaria aclaracion de organizacion sobre orden o flag esperada; no proponer otro intento por permutacion.

@@ -1,0 +1,14 @@
+{
+  "id_envio": "2224-001",
+  "tipo": "actualizacion_del_mismo_envio",
+  "respuesta_exacta": "10.0.0.2,10.221.19.100,10.228.182.201",
+  "resultado": "incorrecta",
+  "feedback_visible": "incorrect",
+  "consumio_intento": true,
+  "intentos_restantes": 2,
+  "fecha_hora_visible": "October 9th, 11:20:37 AM",
+  "zona_horaria_plataforma": null,
+  "puntos": null,
+  "fuente": "Captura codex-clipboard-af07dc2f-36e6-4a5d-b4ae-5811128c1796.png y confirmacion humana de dos intentos restantes",
+  "nota": "Actualiza 2224-001; no es un segundo intento."
+}
