@@ -40,3 +40,7 @@ El registro no debe impedir tomar la siguiente pregunta: guardar pronto lo míni
 ## Comandos rápidos
 
 [Palabras del coordinador](comandos-coordinador.md): FACIL, SCRIPT (SCRIP), DIAGNOSTICO y DIFICIL. Activan flujos de análisis/skills; modelos, subagentes y worktrees se usan según disponibilidad y ahorro de tiempo. No autorizan envíos ni pistas. Nuevas skills de GitHub quedan pendientes de recibir e incorporar.
+
+## Aclaración de formato confirmada por el equipo
+
+Formato de respuestas: según la aclaración del equipo, mayúsculas/minúsculas y puntuación de estilo no requieren revisión ni preguntas adicionales por defecto. Si el enunciado exige un formato, cumplirlo exactamente: números en lugar de palabras, cantidad de decimales, punto o coma decimal, unidad, porcentaje o estructura indicada. No agregar texto, unidades ni signos que el formato excluya. No alterar puntuación que cambie el valor o la sintaxis de IDs, URLs, código o consultas. El historial conserva exactamente lo enviado, sin normalizarlo.

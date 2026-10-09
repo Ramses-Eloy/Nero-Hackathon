@@ -49,3 +49,7 @@ No cambiar la visibilidad del repo ni publicar tokens, cookies, claves o captura
 ## Lectura del banco de puntos
 
 Las carpetas por pregunta son el historial. La plataforma determina puntaje y presupuesto reales. Un mismo envío puede tener varios eventos de feedback: contar por ID de envío, no por cantidad de archivos. El índice de retos es de navegación, no un contador autoritativo. Cuando haya reglas exactas se podrá automatizar un resumen sin cambiar los eventos originales.
+
+## Aclaración de formato confirmada por el equipo
+
+Formato de respuestas: según la aclaración del equipo, mayúsculas/minúsculas y puntuación de estilo no requieren revisión ni preguntas adicionales por defecto. Si el enunciado exige un formato, cumplirlo exactamente: números en lugar de palabras, cantidad de decimales, punto o coma decimal, unidad, porcentaje o estructura indicada. No agregar texto, unidades ni signos que el formato excluya. No alterar puntuación que cambie el valor o la sintaxis de IDs, URLs, código o consultas. El historial conserva exactamente lo enviado, sin normalizarlo.

@@ -63,6 +63,12 @@ No tenemos que activar cada skill manualmente ni crear un agente por skill. El c
 
 Intentamos primero sin pistas. Si decidimos usar una, indicarlo explícitamente y registrar su costo observado. Después de un error, revisar feedback y presupuesto antes de reintentar; no repetir valores a ciegas.
 
+## Formato: cuándo importa
+
+No perder tiempo revisando mayúsculas, minúsculas o puntuación de estilo. Si la pregunta indica cómo responder, sí hay que seguirlo exactamente. Por ejemplo: «con dos decimales y punto» → `12.50`; «con dos decimales y coma» → `12,50`; «solo números» → `12`, sin escribir «doce» ni añadir una explicación. Estos valores son ejemplos de formato, no respuestas de competencia.
+
+Esto no permite cambiar puntos dentro de un número, ID, URL o código: pueden cambiar su significado. Al confirmar el envío, copiar exactamente lo que se envió, aunque el estilo sea flexible.
+
 ## 5. Cómo confirmar una respuesta
 
 Podemos usar este mensaje corto cuando los demás datos ya estén en el chat:

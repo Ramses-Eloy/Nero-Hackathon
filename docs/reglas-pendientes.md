@@ -11,7 +11,7 @@ El formato CTF, reparto 2+2 y uso de IA están confirmados en contexto-ctf.md. L
 | Penalización o efecto de respuesta incorrecta | Pendiente | | Presupuesto de riesgo |
 | Límite de intentos por pregunta | Leer por pregunta | Usuario | Revisión antes de enviar |
 | Intentos compartidos del equipo o individuales | Pendiente | | Control de envíos |
-| Formato exacto / sensibilidad a mayúsculas / unidades | Leer por pregunta | | Validación de candidata |
+| Formato de respuesta | Estilo flexible confirmado; requisitos numéricos/literales se leen por pregunta | Usuario, 8 de octubre de 2026 | Decimales, separador, unidades y estructura explícita |
 | Pistas y costo por pista | Leer por pregunta | Usuario | Decisión humana |
 | Dependencias y desbloqueo de retos | Pendiente | | Asignación |
 | Telemetría: ventanas, zona horaria y datos dinámicos | Pendiente | | Reproducibilidad |
