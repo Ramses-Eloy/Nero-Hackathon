@@ -25,3 +25,6 @@ fetch logs
 
 ## Segundo rechazo
 El humano confirma rechazo de 204700. Se conservan ambos envíos. El presupuesto restante no fue mostrado en esta confirmación. Ambos volúmenes bidireccionales fueron rechazados. Los bytes enviados ya comprobados son 57922 excluyendo AWS y 82894 incluyendo AWS. Falta confirmar si 7 fue aceptado en 2222 para resolver el alcance de aplicaciones personales antes de una nueva candidata; no realizar envíos automáticos.
+
+## Alcance confirmado y nueva candidata
+El humano confirmó aceptación de 7 en 2222. Se mantiene el conjunto de aplicaciones personales fuera de AWS. Nueva candidata: 57922, bytes enviados (src_bytes), comprobados por la consulta registrada y por suma por aplicación: 2302+5694+7130+5682+3648+29114+4352=57922. Interpretación de generó como bytes enviados, dado el rechazo del total bidireccional personal. No enviada ni aceptada todavía.

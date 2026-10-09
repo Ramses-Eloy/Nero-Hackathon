@@ -1,0 +1,10 @@
+{
+  "id": "2222-confirmado-7",
+  "actor": "humano",
+  "respuesta_exacta": "7",
+  "resultado": "correcta",
+  "fuente": "Confirmación humana explícita a la pregunta sobre aceptación de 7",
+  "fecha_registro": "2026-10-09",
+  "hora_envio": "desconocida",
+  "intentos_restantes": "desconocido"
+}
