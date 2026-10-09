@@ -28,3 +28,27 @@ Contraste: consulta sin filtro privado ni limite devolvio 134 combinaciones de d
 Diagnostico de consultas: fetch sobre ruta lookup no es valido; load si. Funcion ipInSubnet no disponible, sustituida por filtro explicito de bloques privados. Estos errores no consumen intentos CTF.
 
 Candidata revisada: `10.0.0.2,10.221.19.100,10.228.182.201`, IPs separadas por comas sin espacios segun aclaracion humana de 2221. Sin envio ni pistas.
+
+## Rechazo y comprobacion posterior
+
+Usuario informa `me marca incorrecta`; respuesta exacta enviada y presupuesto actualizado no visibles. Preservado en intentos/001.json; no inferir consumo ni repetir envio.
+
+Consulta de todos los destinos privados con cipher presente, sin filtro KeySize, devuelve exactamente cuatro combinaciones: las tres anteriores con 128 bits y 172.16.131.10 con cipher 53, TLS_RSA_WITH_AES_256_CBC_SHA, KeySize 256 y puerto 8080. No hay destinos privados con KeySize desconocido en este conjunto. No se observa suite privada omitida por el filtro de nulos.
+
+Consulta adicional de origen privado y KeySize <256 devuelve numerosas IP con puertos origen altos y destino 443; estas filas son clientes, no prueban servidores adicionales. No se cambia la candidata a IPs cliente.
+
+Contraste independiente sobre JSON original, misma ventana Last 3 days:
+
+```dql
+fetch logs
+| filter vendor == "Gigamon"
+| parse content, "JSON:raw"
+| fieldsAdd cipher = toLong(raw[ssl_cipher_suite_id]), server = raw[dst_ip], octets = splitString(raw[dst_ip], ".")
+| filter startsWith(server, "10.") or startsWith(server, "192.168.") or (startsWith(server, "172.") and toLong(octets[1]) >= 16 and toLong(octets[1]) <= 31)
+| lookup [load "/lookups/tls-cipher-suites-table" | fieldsAdd cipher = toLong(NumericID)], sourceField: cipher, lookupField: cipher, prefix: "tls."
+| filter toLong(tls.KeySize) < 256
+| summarize {logs = count(), ports = collectDistinct(raw[dst_port]), keys = collectDistinct(tls.KeySize), ciphers = collectDistinct(cipher)}, by: {server}
+| sort server asc
+```
+
+Resultado: las mismas tres IP, un log por servidor, puerto 443, clave 128, ciphers 47, 49199 y 4 respectivamente. No hay evidencia nueva para otra lista. Causa del rechazo sigue pendiente: primero contrastar respuesta exacta enviada y presupuesto actualizado. No probar permutaciones del orden o variantes con intentos limitados.

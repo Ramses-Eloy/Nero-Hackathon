@@ -1,0 +1,15 @@
+{
+  "id_envio": "2224-001",
+  "fecha_registro": "2026-10-09",
+  "actor": "usuario",
+  "respuesta_exacta": null,
+  "candidata_previa": "10.0.0.2,10.221.19.100,10.228.182.201",
+  "resultado": "incorrecta",
+  "feedback_humano": "me marca incorrecta",
+  "feedback_exacto_plataforma": null,
+  "consumio_intento": null,
+  "intentos_restantes": null,
+  "puntos": null,
+  "pistas": null,
+  "nota": "Usuario confirma rechazo; respuesta exacta enviada y presupuesto actualizado no visibles."
+}
