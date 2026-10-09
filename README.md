@@ -40,3 +40,7 @@ Las skills son de cuestionamiento, diagnóstico, consultas, revisión y aprendiz
 ## Fuentes
 
 Los tres PDF originales permanecen en referencias/. [Fuentes, alcance y workshops](referencias/fuentes.md). Las guías distinguen temario público, explicaciones de estudio y reglas confirmadas por el equipo.
+
+## Comandos rápidos
+
+[Palabras del coordinador](docs/comandos-coordinador.md): FACIL, SCRIPT (SCRIP), DIAGNOSTICO y DIFICIL. Activan flujos de análisis/skills; modelos, subagentes y worktrees se usan según disponibilidad y ahorro de tiempo. No autorizan envíos ni pistas. Nuevas skills de GitHub quedan pendientes de recibir e incorporar.

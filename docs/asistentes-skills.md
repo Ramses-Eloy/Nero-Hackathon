@@ -27,3 +27,7 @@ Claude: `/ctf-cuestionar ...`; Codex: `$ctf-cuestionar ...`. Un prompt claro tam
 El usuario confirmó que IA está permitida. No conservar la prohibición anterior. Confirmar únicamente disponibilidad técnica concreta; tokens, suscripción, permisos y datos de conexión aún no se proporcionaron. No publicar credenciales ni asumir una instalación en otro compañero.
 
 Fuentes: [Claude skills](https://code.claude.com/docs/en/skills), [Claude memory](https://code.claude.com/docs/en/memory), [Codex skills](https://developers.openai.com/codex/skills), [AGENTS.md](https://developers.openai.com/codex/guides/agents-md), [Learn MCP](https://learn.microsoft.com/en-us/training/support/mcp), [Dynatrace MCP](https://docs.dynatrace.com/docs/dynatrace-intelligence/dynatrace-mcp).
+
+## Comandos rápidos
+
+[Palabras del coordinador](comandos-coordinador.md): FACIL, SCRIPT (SCRIP), DIAGNOSTICO y DIFICIL. Activan flujos de análisis/skills; modelos, subagentes y worktrees se usan según disponibilidad y ahorro de tiempo. No autorizan envíos ni pistas. Nuevas skills de GitHub quedan pendientes de recibir e incorporar.

@@ -29,3 +29,7 @@ Fast/Ultrafast y modos rápidos de Claude pueden ayudar cuando estén disponible
 Reducir texto de salida, lecturas redundantes, herramientas y consultas innecesarias. Mantener el contexto pertinente a la pregunta; no adjuntar todos los PDF en cada mensaje. Evitar sesiones cloud con preparación lenta para una pregunta que se puede resolver con el entorno ya abierto. No confundir tiempo hasta el primer token con tiempo hasta una respuesta correcta.
 
 En preparación, probar unas pocas preguntas de laboratorio representativas con el contexto real y registrar tiempo hasta respuesta útil y errores. No inventar segundos o tasas de acierto. Para un único intento, la comprobación mínima necesaria puede ahorrar más tiempo que una respuesta rápida equivocada. La explicación se conserva en el MD y el chat devuelve solo la respuesta exacta o la pregunta indispensable.
+
+## Comandos rápidos
+
+[Palabras del coordinador](comandos-coordinador.md): FACIL, SCRIPT (SCRIP), DIAGNOSTICO y DIFICIL. Activan flujos de análisis/skills; modelos, subagentes y worktrees se usan según disponibilidad y ahorro de tiempo. No autorizan envíos ni pistas. Nuevas skills de GitHub quedan pendientes de recibir e incorporar.

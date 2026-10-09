@@ -36,3 +36,7 @@ Intentar sin pistas primero. Una pista puede resultar conveniente si desbloquea 
 Confirmar al chat exactamente lo enviado, feedback, consumo de intento, intentos restantes visibles, puntos observados y pistas usadas. El asistente registra en la carpeta de esa pregunta y sincroniza los archivos pertinentes. Si falla el push, conservar el commit/archivo y señalar pendiente de sincronización; no declarar publicado.
 
 El registro no debe impedir tomar la siguiente pregunta: guardar pronto lo mínimo verificable y ampliar el diagnóstico posteriormente. Una respuesta incorrecta es útil para evitar repetirla, no se borra del historial. Los puntos no se calculan como intentos multiplicados por un valor supuesto; la plataforma es la fuente de la puntuación real.
+
+## Comandos rápidos
+
+[Palabras del coordinador](comandos-coordinador.md): FACIL, SCRIPT (SCRIP), DIAGNOSTICO y DIFICIL. Activan flujos de análisis/skills; modelos, subagentes y worktrees se usan según disponibilidad y ahorro de tiempo. No autorizan envíos ni pistas. Nuevas skills de GitHub quedan pendientes de recibir e incorporar.
