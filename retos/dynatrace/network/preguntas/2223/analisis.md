@@ -22,3 +22,6 @@ fetch logs
 | fieldsAdd sent = toLong(src_bytes), received = toLong(dst_bytes)
 | summarize {logs = count(), missing_bytes = countIf(isNull(sent) or isNull(received)), sent_bytes = sum(sent), received_bytes = sum(received), total_bytes = sum(sent + received)}
 ```
+
+## Segundo rechazo
+El humano confirma rechazo de 204700. Se conservan ambos envíos. El presupuesto restante no fue mostrado en esta confirmación. Ambos volúmenes bidireccionales fueron rechazados. Los bytes enviados ya comprobados son 57922 excluyendo AWS y 82894 incluyendo AWS. Falta confirmar si 7 fue aceptado en 2222 para resolver el alcance de aplicaciones personales antes de una nueva candidata; no realizar envíos automáticos.

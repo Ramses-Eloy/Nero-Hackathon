@@ -1,0 +1,11 @@
+{
+  "id": "2223-02",
+  "actor": "humano",
+  "respuesta_exacta": "204700",
+  "resultado": "incorrecta",
+  "fuente": "Confirmación humana: me marca incorrecto tambien",
+  "feedback_exacto_plataforma": null,
+  "intentos_restantes": "desconocido",
+  "fecha_registro": "2026-10-09",
+  "hora_envio": "desconocida"
+}
