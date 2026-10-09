@@ -1,5 +1,7 @@
 # Equipo CTF — dos parejas
 
+Para cargar el contexto completo al crear un proyecto/chat, ver [Microsoft](../proyectos/contexto-microsoft.md) o [Dynatrace](../proyectos/contexto-dynatrace.md). Después activar el perfil individual correspondiente.
+
 | Integrante | Perfil | Pareja habitual |
 |---|---|---|
 | I1 | [Microsoft Azure](01-microsoft-azure.md) | I2 |

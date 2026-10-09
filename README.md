@@ -6,6 +6,8 @@ La estrategia vigente reemplaza el desarrollo de un producto, presentación y vi
 
 ## Empezar
 
+Para crear proyectos o chats con una explicación completa, usar [contexto Microsoft (I1–I2)](proyectos/contexto-microsoft.md) o [contexto Dynatrace (I3–I4)](proyectos/contexto-dynatrace.md). Cada documento incluye el mapa del repo, flujo de features y respuestas, responsabilidades y prompt inicial.
+
 1. Leer [contexto y reglas conocidas](docs/contexto-ctf.md), [estrategia 2+2](docs/estrategia-ctf.md) y [datos pendientes](docs/reglas-pendientes.md).
 2. Estudiar [Microsoft](estudio/microsoft.md), [Dynatrace](estudio/dynatrace.md), [scripts y consultas](estudio/scripts-consultas.md) y practicar [ejercicios](estudio/ejercicios.md).
 3. Abrir el chat con [perfil y prompt del integrante](equipo/README.md). Claude usa [CLAUDE.md](CLAUDE.md); Codex usa [AGENTS.md](AGENTS.md). Ambos siguen el mismo protocolo.
