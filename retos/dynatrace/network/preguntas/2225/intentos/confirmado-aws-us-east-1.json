@@ -1,0 +1,10 @@
+{
+  "respuesta": "aws-us-east-1",
+  "intentos_restantes": null,
+  "resultado": "correcta",
+  "feedback": "Si era correcta",
+  "consumo": null,
+  "fuente": "confirmacion humana",
+  "id": "confirmado-aws-us-east-1",
+  "fecha_envio": null
+}
