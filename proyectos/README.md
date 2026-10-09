@@ -1,5 +1,7 @@
 # Contexto para proyectos y chats
 
+Los participantes pueden empezar por la [guía sencilla del equipo](../GUIA-EQUIPO.md).
+
 Adjuntar el documento correspondiente a la pareja y copiar su prompt final, indicando el integrante activo:
 
 - [Microsoft — I1 e I2](contexto-microsoft.md).

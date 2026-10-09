@@ -46,6 +46,8 @@ Para tomar una pregunta, anunciar en el canal humano: «Tomo [ID], envío I[n], 
 
 ## Qué contiene el repositorio y para qué sirve cada parte
 
+GUIA-EQUIPO.md explica el uso diario en lenguaje sencillo para los cuatro participantes: inicio del chat, palabras rápidas, material nuevo, respuestas y continuidad.
+
 Todas las rutas de esta guía son relativas a la raíz de Nero-Hackathon.
 
 | Ruta | Uso y momento de lectura/actualización |
