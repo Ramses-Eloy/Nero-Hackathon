@@ -33,3 +33,5 @@ fetch logs
 | filter tier == "diamond"
 | summarize {transactions = countDistinctExact(transaction_id), logs = count()}, by: {stage}
 ```
+
+Confirmación humana: `29` aceptado. El criterio del reto cuenta filas después de expandir errores, 29 apariciones, frente a 17 IDs únicos. Aplicación limitada a 2210 que referencia este conjunto.
