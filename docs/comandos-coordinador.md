@@ -1,8 +1,19 @@
 # Comandos rápidos del coordinador CTF
 
+## Clasificación automática y revisión obligatoria
+
+El humano entrega la pregunta y evidencia; no necesita escribir FACIL, SCRIPT, DIAGNOSTICO ni DIFICIL. El coordinador elige el modo y las skills automáticamente. Las palabras siguen disponibles como indicaciones opcionales, no como requisito del workflow.
+
+Todas las preguntas, incluidas FACIL, pasan antes de entregar una candidata por: interpretar el enunciado → analizar el contexto pertinente → comprobar evidencia, alcance y resultado → revisar correspondencia con lo pedido y formato explícito. La revisión contrasta la candidata con la fuente, cálculo o comportamiento observado; no consiste en afirmar «revisado» sin comprobación. Si falta evidencia indispensable, preguntar lo mínimo en lugar de adivinar.
+
+El coordinador puede hacer todo el ciclo como agente principal; no es obligatorio crear otro subagente para cada pregunta fácil. Si delega, exige al trabajador candidata, evidencia/comprobación y dudas materiales, y revisa esos resultados antes de responder. La revisión independiente se añade cuando el riesgo o la ambigüedad la justifiquen. Ningún modo omite análisis o revisión por rapidez, pero no se activan todas las skills ni se investigan fuentes irrelevantes.
+
+El chat conserva salida mínima: solo respuesta exacta o pregunta indispensable. Evidencia y explicación útil van al MD de la pregunta. Esto no autoriza envíos ni pistas ni convierte una candidata en un intento confirmado.
+
+
 Estos comandos son una convención de nuestros prompts, no comandos nativos del cliente ni una conexión automática. El chat principal sigue siendo coordinador del integrante activo. Funcionan en ambas parejas y en Claude/Codex con este contexto cargado.
 
-## Cómo escribirlos
+## Uso opcional de las palabras
 
 Enviar la palabra al inicio de un mensaje propio, seguida del enunciado, ID o tarea. Aceptar mayúsculas/minúsculas, con/sin tilde y dos puntos opcionales. FACIL/FÁCIL, SCRIPT/SCRIP, DIFICIL/DIFÍCIL y DIAGNOSTICO/DIAGNÓSTICO son alias válidos. «SCRIP» se interpreta como SCRIPT sin pedir corrección.
 
@@ -10,7 +21,7 @@ Si se envía solo la palabra, aplicar a la pregunta activa. Sin pregunta activa,
 
 | Palabra | Acción del coordinador | Skills pertinentes | Modelo recomendado | Delegación |
 |---|---|---|---|---|
-| FACIL | Extraer o resolver directamente con contexto/evidencia disponibles | ctf-consultar si hace falta; ctf-revisar-respuesta antes de un envío | Haiku 5.5 / GPT-6 Luna Low | Cero subagentes por defecto |
+| FACIL | Interpretar, analizar, comprobar evidencia y revisar candidata antes de entregarla | ctf-consultar si hace falta; procedimiento ctf-revisar-respuesta antes de entregar candidata | Haiku 5.5 / GPT-6 Luna Low | Cero subagentes por defecto |
 | SCRIPT | Preparar/adaptar consulta, comando o script mínimo al reto; verificar según impacto | ctf-consultar; ctf-revisar-respuesta; ctf-diagnosticar si falla | Sonnet 5.5 / GPT-6.1 Sol | Uno especializado solo si ahorra tiempo |
 | DIAGNOSTICO | Localizar causa con hipótesis y comprobación discriminante | ctf-diagnosticar; ctf-consultar; ctf-contrastar si hay ambigüedad | Sonnet 5.5 / GPT-6.1 Sol | Uno especializado si es útil; dos solo para investigaciones independientes |
 | DIFICIL | Resolver con capacidad mayor y contraste dirigido cuando sea necesario | ctf-cuestionar solo ante dato indispensable; ctf-diagnosticar/consultar según tarea; ctf-contrastar y revisar-respuesta según riesgo | Opus 5.5 / GPT-6 Astra | Hasta dos por defecto si hay partes independientes y capacidad disponible |

@@ -1,5 +1,16 @@
 # Asistentes, skills e integraciones para CTF
 
+## Clasificación automática y revisión obligatoria
+
+El humano entrega la pregunta y evidencia; no necesita escribir FACIL, SCRIPT, DIAGNOSTICO ni DIFICIL. El coordinador elige el modo y las skills automáticamente. Las palabras siguen disponibles como indicaciones opcionales, no como requisito del workflow.
+
+Todas las preguntas, incluidas FACIL, pasan antes de entregar una candidata por: interpretar el enunciado → analizar el contexto pertinente → comprobar evidencia, alcance y resultado → revisar correspondencia con lo pedido y formato explícito. La revisión contrasta la candidata con la fuente, cálculo o comportamiento observado; no consiste en afirmar «revisado» sin comprobación. Si falta evidencia indispensable, preguntar lo mínimo en lugar de adivinar.
+
+El coordinador puede hacer todo el ciclo como agente principal; no es obligatorio crear otro subagente para cada pregunta fácil. Si delega, exige al trabajador candidata, evidencia/comprobación y dudas materiales, y revisa esos resultados antes de responder. La revisión independiente se añade cuando el riesgo o la ambigüedad la justifiquen. Ningún modo omite análisis o revisión por rapidez, pero no se activan todas las skills ni se investigan fuentes irrelevantes.
+
+El chat conserva salida mínima: solo respuesta exacta o pregunta indispensable. Evidencia y explicación útil van al MD de la pregunta. Esto no autoriza envíos ni pistas ni convierte una candidata en un intento confirmado.
+
+
 **Rapidez obligatoria:** en chat, solo respuesta exacta o pregunta indispensable con contexto mínimo. Sin explicación ni narración; evidencia y explicación van al MD de la pregunta. [Modelos y escalado por dificultad](modelos-rapidez.md).
 
 Claude usa CLAUDE.md y .claude/skills/. Codex usa AGENTS.md y .agents/skills/. El contenido de las siete skills es equivalente, con nombres CTF para evitar activar el antiguo flujo de producto. La metadata básica permite descubrirlas; no se han ejecutado aquí contra un entorno de competencia.

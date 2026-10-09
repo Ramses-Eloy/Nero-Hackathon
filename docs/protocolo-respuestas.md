@@ -1,5 +1,16 @@
 # Protocolo por pregunta, envío y resultado
 
+## Clasificación automática y revisión obligatoria
+
+El humano entrega la pregunta y evidencia; no necesita escribir FACIL, SCRIPT, DIAGNOSTICO ni DIFICIL. El coordinador elige el modo y las skills automáticamente. Las palabras siguen disponibles como indicaciones opcionales, no como requisito del workflow.
+
+Todas las preguntas, incluidas FACIL, pasan antes de entregar una candidata por: interpretar el enunciado → analizar el contexto pertinente → comprobar evidencia, alcance y resultado → revisar correspondencia con lo pedido y formato explícito. La revisión contrasta la candidata con la fuente, cálculo o comportamiento observado; no consiste en afirmar «revisado» sin comprobación. Si falta evidencia indispensable, preguntar lo mínimo en lugar de adivinar.
+
+El coordinador puede hacer todo el ciclo como agente principal; no es obligatorio crear otro subagente para cada pregunta fácil. Si delega, exige al trabajador candidata, evidencia/comprobación y dudas materiales, y revisa esos resultados antes de responder. La revisión independiente se añade cuando el riesgo o la ambigüedad la justifiquen. Ningún modo omite análisis o revisión por rapidez, pero no se activan todas las skills ni se investigan fuentes irrelevantes.
+
+El chat conserva salida mínima: solo respuesta exacta o pregunta indispensable. Evidencia y explicación útil van al MD de la pregunta. Esto no autoriza envíos ni pistas ni convierte una candidata en un intento confirmado.
+
+
 ## Estructura
 
 Usar `retos/<microsoft|dynatrace>/<reto-id>/preguntas/<pregunta-id>/`. IDs seguros y únicos que correspondan a la plataforma; no inventar preguntas reales para llenar carpetas. Cada pregunta contiene README.md, analisis.md, evidencias/ e intentos/. Usar [plantillas](../retos/plantillas/README.md).

@@ -27,7 +27,7 @@ No hace falta instalar todo ni conectar todas las herramientas antes de estudiar
 
 ## 3. Qué escribir al coordinador
 
-El chat principal es nuestro coordinador. Le damos la pregunta, captura, logs o archivos pertinentes y una palabra rápida:
+El chat principal es nuestro coordinador. Le damos la pregunta, captura, logs o archivos pertinentes. **No necesitamos escribir palabras clave:** el coordinador clasifica automáticamente. Si queremos orientar el modo, podemos usar estas palabras opcionales:
 
 | Palabra | Cuándo usarla |
 |---|---|
@@ -44,6 +44,8 @@ SCRIPT [ID]: necesito una consulta para contar los errores del intervalo indicad
 DIAGNOSTICO [ID]: la API devuelve 500. Estos son los logs: [...]
 DIFICIL [ID]: estas dos fuentes muestran valores distintos para lo que pide el reto.
 ```
+
+**También las preguntas fáciles se analizan, comprueban y revisan antes de responder.** Ese ciclo puede hacerlo el coordinador sin crear otro agente.
 
 **El chat debe contestar solo la respuesta exacta, el código necesario o una pregunta imprescindible.** La explicación y evidencia se guardan en el MD de la pregunta. Si queremos explicación en chat, la pedimos expresamente.
 
