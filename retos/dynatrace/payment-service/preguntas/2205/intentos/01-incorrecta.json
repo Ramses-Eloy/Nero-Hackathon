@@ -1,0 +1,16 @@
+{
+  "id_envio": "2205-01",
+  "fecha_envio": null,
+  "fecha_registro": "2026-10-09",
+  "zona_registro": "America/Panama",
+  "actor": "usuario; integrante no identificado",
+  "respuesta_exacta": "365727.89",
+  "resultado": "incorrecta",
+  "feedback_exacto": "Incorrect. You have 2 tries remaining.",
+  "consumio_intento": true,
+  "intentos_consumidos_visibles": 1,
+  "intentos_restantes": 2,
+  "pistas_usadas": "no confirmado",
+  "puntos_obtenidos": null,
+  "evidencia": "../evidencias/01-feedback.png"
+}
