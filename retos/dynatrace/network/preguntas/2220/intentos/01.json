@@ -1,0 +1,12 @@
+{
+  "id": "2220-01",
+  "actor": "humano",
+  "respuesta_exacta": "2288",
+  "resultado": "incorrecta",
+  "feedback": "Incorrect. You have 2 tries remaining.",
+  "intento_consumido": true,
+  "intentos_restantes": 2,
+  "fecha_registro": "2026-10-09",
+  "hora_envio": "desconocida",
+  "evidencia": "evidencias/intento-01.png"
+}
