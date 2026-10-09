@@ -1,0 +1,20 @@
+{
+  "envio_id": "2207-01",
+  "tipo_evento": "envio",
+  "fecha": null,
+  "fecha_registro": "2026-10-09",
+  "dominio": "dynatrace",
+  "reto_id": "payment-service",
+  "pregunta_id": "2207",
+  "actor": "usuario; integrante desconocido",
+  "confirmacion_humana": true,
+  "respuesta_enviada": "No pudo conectarse con la base de datos",
+  "resultado": "incorrecta",
+  "feedback": null,
+  "fuente_feedback": "confirmacion_humana",
+  "consumio_intento": true,
+  "intentos_restantes_observados": null,
+  "evidencias": ["Mensaje del usuario confirmando dos intentos fallidos; captura del segundo en ../evidencias/02-feedback.png"],
+  "pistas_usadas": null,
+  "cambio_puntos_observado": null
+}

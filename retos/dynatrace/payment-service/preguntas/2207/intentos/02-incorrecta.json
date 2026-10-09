@@ -1,0 +1,20 @@
+{
+  "envio_id": "2207-02",
+  "tipo_evento": "envio",
+  "fecha": null,
+  "fecha_registro": "2026-10-09",
+  "dominio": "dynatrace",
+  "reto_id": "payment-service",
+  "pregunta_id": "2207",
+  "actor": "usuario; integrante desconocido",
+  "confirmacion_humana": true,
+  "respuesta_enviada": "Error 5001",
+  "resultado": "incorrecta",
+  "feedback": "Incorrect. You have 1 try remaining.",
+  "fuente_feedback": "captura_usuario",
+  "consumio_intento": true,
+  "intentos_restantes_observados": 1,
+  "evidencias": ["../evidencias/02-feedback.png"],
+  "pistas_usadas": null,
+  "cambio_puntos_observado": null
+}
