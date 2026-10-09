@@ -1,0 +1,44 @@
+[
+  {
+    "name": "ctf-aprender-error",
+    "path": ".agents/skills/ctf-aprender-error/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  },
+  {
+    "name": "ctf-consultar",
+    "path": ".agents/skills/ctf-consultar/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  },
+  {
+    "name": "ctf-contrastar",
+    "path": ".agents/skills/ctf-contrastar/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  },
+  {
+    "name": "ctf-cuestionar",
+    "path": ".agents/skills/ctf-cuestionar/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  },
+  {
+    "name": "ctf-diagnosticar",
+    "path": ".agents/skills/ctf-diagnosticar/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  },
+  {
+    "name": "ctf-incorporar-contexto",
+    "path": ".agents/skills/ctf-incorporar-contexto/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  },
+  {
+    "name": "ctf-revisar-respuesta",
+    "path": ".agents/skills/ctf-revisar-respuesta/SKILL.md",
+    "valida": true,
+    "lectura_local": true
+  }
+]

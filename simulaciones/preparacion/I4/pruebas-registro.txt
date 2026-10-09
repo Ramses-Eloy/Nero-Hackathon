@@ -1,0 +1,16 @@
+LABORATORIO I4 — ejecución única del registro
+Fecha local: 2026-10-08, America/Panama
+Python: 3.12.14 (runtime oficial ya incluido en Codex)
+Comando: python -m unittest discover -s tests -v
+Ejecutable real: C:\Users\amoji\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe
+
+test_duplicate_is_idempotent_but_cannot_overwrite_history ... ok
+test_feedback_update_is_not_a_second_submission ... ok
+test_incorrect_result_is_not_dropped ... ok
+test_pending_and_unknown_budget_are_preserved ... ok
+test_repeated_submission_and_changed_feedback_answer_rejected ... ok
+test_requires_confirmation_and_safe_path ... ok
+
+Ran 6 tests in 0.159s
+OK
+Exit code: 0

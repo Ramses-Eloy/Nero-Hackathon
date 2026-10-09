@@ -1,0 +1,12 @@
+{
+  "tipo": "LABORATORIO",
+  "integrante": "I4",
+  "fuente": "Caso sintético autorizado por el usuario; no entorno competitivo",
+  "fallos": 3,
+  "solicitudes": 12,
+  "formula": "3 / 12 * 100",
+  "punto": "25.00",
+  "coma": "25,00",
+  "comprobacion": "OK: valor 25, dos decimales, separador exacto, sin %",
+  "envio_ctf": false
+}
