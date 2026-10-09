@@ -85,6 +85,13 @@ Bloqueo actual: dar permiso de escritura a AbdielEMG en el repo o autenticar
 Git con otra cuenta que ya tenga escritura. No se modificó la identidad
 de autor automáticamente al observar una cuenta de autenticación distinta.
 
+Nuevo reintento solicitado: fetch completado, árbol limpio y rama local
+3 commits por delante, sin commits remotos pendientes. Diferencia limitada
+a los ocho archivos de preparación I4. Push interactivo real rechazado:
+`Permission to Ramses-Eloy/Nero-Hackathon.git denied to SinaeNivis`, HTTP 403.
+Bloqueo vigente: la cuenta autenticada SinaeNivis requiere escritura en el repo
+o debe usarse una cuenta que ya la tenga. No se declara publicación.
+
 ## Handoff, incidencias y deuda local de preparación
 
 Incidencia abierta I4-GIT-AUTH: autenticación local ausente; responsable I4.
