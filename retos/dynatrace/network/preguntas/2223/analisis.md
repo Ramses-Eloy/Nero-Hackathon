@@ -28,3 +28,6 @@ El humano confirma rechazo de 204700. Se conservan ambos envíos. El presupuesto
 
 ## Alcance confirmado y nueva candidata
 El humano confirmó aceptación de 7 en 2222. Se mantiene el conjunto de aplicaciones personales fuera de AWS. Nueva candidata: 57922, bytes enviados (src_bytes), comprobados por la consulta registrada y por suma por aplicación: 2302+5694+7130+5682+3648+29114+4352=57922. Interpretación de generó como bytes enviados, dado el rechazo del total bidireccional personal. No enviada ni aceptada todavía.
+
+## Cierre por agotamiento
+Captura confirma 57922 rechazado, 3/3 intentos, cero restantes. Se conservan los tres envíos incorrectos: 123692, 204700, 57922. La respuesta correcta queda desconocida. No inferir aceptación de otro valor ni investigar nuevas candidatas al pasar a la siguiente por instrucción humana. Lección: las interpretaciones de alcance y dirección no quedaron confirmadas por el validador; el resultado de 2222 no bastaba para resolver esa ambigüedad.

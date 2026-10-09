@@ -1,0 +1,13 @@
+{
+  "id": "2223-03",
+  "actor": "humano",
+  "respuesta_exacta": "57922",
+  "resultado": "incorrecta",
+  "feedback": "Incorrect. You have 0 tries remaining.",
+  "intento_consumido": true,
+  "intentos_usados": 3,
+  "intentos_restantes": 0,
+  "fecha_registro": "2026-10-09",
+  "hora_envio": "desconocida",
+  "evidencia": "evidencias/intento-03.png"
+}
