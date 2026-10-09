@@ -59,8 +59,14 @@ Un dry-run no se considera prueba de publicación real.
 
 Bloqueo imprescindible: autenticar Git local con una cuenta que tenga
 escritura en Ramses-Eloy/Nero-Hackathon. Publicación no verificada.
-Los archivos de preparación se conservarán localmente y se hará commit
-únicamente de esta carpeta. No se autoriza publicar otros archivos.
+Archivos conservados en el commit local de laboratorio
+`d6018fe0a0d755120342ab195d99ca4fc3a5263e`, limitado a los ocho archivos
+de esta carpeta. Árbol limpio después del commit. Push real intentado y
+fallido por la misma ausencia de autenticación; no se publicó.
+`git ls-remote origin refs/heads/main` devolvió
+`4fa0c02659eeabbeac6bc372490bd28a44da5f3f`, distinto del commit local.
+Esta actualización del estado se conserva en un commit local posterior.
+No se autoriza publicar otros archivos.
 
 ## Handoff, incidencias y deuda local de preparación
 
