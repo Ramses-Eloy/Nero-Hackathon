@@ -1,12 +1,6 @@
-# Índice del material compartido
+# Índice de material recibido
 
-Todavía no hay material del reto cargado aquí. Los PDF del evento están en `referencias/` y el análisis preparatorio en `docs/roadmap.md`.
+No se ha recibido material adicional del entorno competitivo. Los PDF públicos originales están en referencias/. Añadir solo entradas reales.
 
-Añadir una fila por material o conjunto coherente. IDs sugeridos: `MAT-L-001`, `MAT-A-001`, `MAT-B-001`, `MAT-D-001`. No inventar campos.
-
-| ID | Ruta/enlace | Origen y fecha | Tipo / tarea | Estado | Responsable | Síntesis y registros afectados |
-|---|---|---|---|---|---|---|
-
-Estados: nuevo, en análisis, incorporado, requiere aclaración, descartado con motivo.
-
-Indicar revisión considerada, cuándo y cómo afecta el desarrollo. Si cambia el original, actualizar estado y registrar nueva revisión. Cada sesión anota qué entradas revisó y qué quedó sin leer en `docs/sesiones.md`.
+| ID | Ruta | Origen/fecha | Dominio/preguntas | Estado | Síntesis y cambios |
+|---|---|---|---|---|---|

@@ -1,14 +1,8 @@
-# Decisiones técnicas y de coordinación
+# Decisiones de coordinación
 
-Registrar decisiones que afecten requisitos, configuración, integración o distribución del trabajo. No hace falta justificar cada detalle menor.
+- 2026-10-08: estrategia reemplazada por CTF, según aclaración del usuario. Se retira el desarrollo de un producto y la entrega de informe/presentación/video como objetivos del repo.
+- 2026-10-08: confirmado I1–I2 Microsoft e I3–I4 Dynatrace; apoyo cruzado permitido.
+- 2026-10-08: el usuario confirma uso de IA sin restricciones durante la competencia; las limitaciones previas de IA no se aplican al contexto vigente.
+- 2026-10-08: cada envío real, correcto o incorrecto, se registra tras confirmación del humano; chat no presume acceso automático ni aceptación.
 
-## Plantilla
-
-- Fecha y tarea:
-- Contexto:
-- Decisión:
-- Motivo y evidencia:
-- Efecto sobre otras tareas:
-- Cómo comprobar el resultado:
-- Cómo recuperar el estado anterior, si aplica:
-- Responsable y commit:
+Nuevas entradas: fecha, fuente, decisión, motivo, preguntas afectadas y forma de comprobar. No repetir todo el historial de intentos aquí.

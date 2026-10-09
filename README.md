@@ -1,44 +1,38 @@
-# Nero Hackathon — equipo Copa 2026
+# Nero — Hackathon Copa CTF
 
-Plantilla para cuatro integrantes con Claude Code como desarrollador principal. Reúne contexto, skills e integración con herramientas, además de tareas y evidencias para producir el informe, presentación y video. No contiene una solución al reto.
+Preparación y coordinación de un equipo de cuatro para resolver preguntas y retos en los entornos Microsoft y Dynatrace proporcionados por la competencia. El objetivo es acumular puntos del equipo con respuestas fundamentadas, cuidando intentos limitados y pistas con penalización.
+
+La estrategia vigente reemplaza el desarrollo de un producto, presentación y video. Sus archivos fueron retirados de la versión activa; el historial Git permite recuperar el trabajo anterior. No hay retos reales registrados todavía.
 
 ## Empezar
 
-1. Leer el [roadmap](docs/roadmap.md) y el [protocolo completo para Claude](docs/contexto-equipo-claude.md).
-   Cada integrante utiliza su [perfil y prompt inicial](equipo/README.md). Los cuatro archivos también incluyen objetivo/instrucciones para un Proyecto de Claude.
-2. Revisar [roles y tareas](docs/roles.md), [integraciones con Claude](docs/integraciones-claude.md) y completar la [matriz de preparación](docs/preparacion.md).
-3. Registrar requisitos y tareas en [tareas](docs/tareas.md) cuando se conozca el enunciado.
-4. Subir material a [features/](features/README.md) y mantener su [índice](features/INDEX.md). Actualizar [avances](docs/avances.md), [decisiones](docs/decisiones.md), [evidencias](docs/evidencias.md), [incidencias](docs/incidencias.md) y [deuda técnica](docs/deuda-tecnica.md) cuando corresponda.
-5. Construir la [entrega](docs/entrega.md), la [presentación](presentacion/guion.md) y el [video](video/guion.md) a partir de resultados verificados.
+1. Leer [contexto y reglas conocidas](docs/contexto-ctf.md), [estrategia 2+2](docs/estrategia-ctf.md) y [datos pendientes](docs/reglas-pendientes.md).
+2. Estudiar [Microsoft](estudio/microsoft.md), [Dynatrace](estudio/dynatrace.md), [scripts y consultas](estudio/scripts-consultas.md) y practicar [ejercicios](estudio/ejercicios.md).
+3. Abrir el chat con [perfil y prompt del integrante](equipo/README.md). Claude usa [CLAUDE.md](CLAUDE.md); Codex usa [AGENTS.md](AGENTS.md). Ambos siguen el mismo protocolo.
+4. Registrar cada pregunta en [retos/](retos/README.md). Analizar y revisar antes de enviar; después confirmar al chat el envío y el resultado real, incluso si fue incorrecto.
+5. El asistente guarda el intento y sincroniza los archivos de esa pregunta a GitHub según [el protocolo](docs/protocolo-respuestas.md). No existe un observador automático de la plataforma.
 
-## Datos del equipo
+## Reparto confirmado
 
-- Equipo: Nero.
-- Integrantes: por completar.
-- Sede y fecha: por completar.
-- Repositorio remoto: [Ramses-Eloy/Nero-Hackathon](https://github.com/Ramses-Eloy/Nero-Hackathon).
-- Enunciado y evaluación: por completar cuando se comuniquen.
+| Integrante | Pareja | Foco de estudio inicial |
+|---|---|---|
+| 1 | Microsoft | Azure, App Service, configuración y diagnóstico; coordinación global ligera |
+| 2 | Microsoft | APIs, frontend/backend, scripts, Git/DevOps, Terraform y KQL |
+| 3 | Dynatrace | Servicios, trazas, logs, DQL y diagnóstico de aplicaciones |
+| 4 | Dynatrace | Infraestructura/Kubernetes, relaciones, experiencia de usuario, AppSec y eventos de negocio |
 
-## Ejecución de lo desarrollado
+Los focos orientan la preparación; ambos miembros de cada pareja deben poder resolver y revisar preguntas de su plataforma. Cambiar de pareja para desbloquear trabajo cuando sea útil. Cualquier integrante puede enviar una respuesta, pero cada pregunta tiene un único responsable de envío mientras esté activa.
 
-Completar con requisitos, versiones, instalación, nombres de variables necesarias, comandos y comprobación del resultado. Registrar versiones o commits comprobados. No guardar secretos ni datos restringidos.
+## Contexto vivo y registro
 
-## Colaboración
+[features/](features/README.md) recibe material nuevo, capturas y aclaraciones. El estado por pregunta vive en retos/, con evidencia, análisis e historial de intentos. Una propuesta del chat no es un envío; un envío no es una respuesta correcta hasta que la plataforma o el humano lo confirme.
 
-El integrante 1 es lead y coordinador: prepara con Claude la base y sus integraciones. Los integrantes 2 y 3 dirigen dos frentes técnicos en paralelo y comprueban lo implementado por Claude. El integrante 4 comprende el trabajo y prepara documentos, presentación y video desde el inicio. Las sesiones de desarrollo concurrentes deben trabajar en ramas o worktrees separados. El equipo comparte decisiones y evidencias, sin imponer horarios rígidos.
+Las reglas CTF y el permiso de usar IA fueron confirmados por el usuario el 8 de octubre de 2026. Puntuación exacta, desempates, costo de pistas y límites concretos se incorporarán cuando lleguen. Repositorio: [Ramses-Eloy/Nero-Hackathon](https://github.com/Ramses-Eloy/Nero-Hackathon).
 
-CLAUDE.md y ocho skills de proyecto están preparados como instrucciones. Consultar [herramientas de diseño y skills](docs/herramientas-diseno-skills.md). .mcp.example.json es una configuración de ejemplo: las conexiones requieren configurarse y autenticarse en el equipo del participante. Este kit no instala Claude ni concede accesos. Abrir Claude desde la raíz y usar el prompt de rol del protocolo; retomar desde [sesiones](docs/sesiones.md).
+## Herramientas y skills
 
-[Roadmap con flechas](roadmap-flujo-claude.png)
+Las skills son de cuestionamiento, diagnóstico, consultas, revisión y aprendizaje de errores. No desarrollan un producto por defecto. [Catálogo e integraciones](docs/asistentes-skills.md). El helper [registrar_intento.py](scripts/registrar_intento.py) valida y conserva eventos locales; no responde en la plataforma ni hace push por sí solo.
 
-`features/` cambia durante el desarrollo: Claude revisa su índice y el material relevante en los puntos definidos por el protocolo. No hay vigilancia automática. Los errores y la deuda solo se tachan al resolverlos y verificar; se conserva el historial.
+## Fuentes
 
-## Referencias oficiales
-
-- [Microsoft](referencias/microsoft.pdf)
-- [Guía Dynatrace](referencias/dynatrace-guia.pdf)
-- [Conceptos Dynatrace](referencias/dynatrace-conceptos.pdf)
-- [Agenda](https://hackathoncopa.com/agenda)
-- [Workshops](https://hackathoncopa.com/workshops)
-
-Los PDF se incluyen sin modificaciones para consulta del equipo.
+Los tres PDF originales permanecen en referencias/. [Fuentes, alcance y workshops](referencias/fuentes.md). Las guías distinguen temario público, explicaciones de estudio y reglas confirmadas por el equipo.

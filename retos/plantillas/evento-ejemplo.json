@@ -1,0 +1,23 @@
+{
+  "evento_id": "REEMPLAZAR-EVENTO-ID",
+  "envio_id": "REEMPLAZAR-ENVIO-ID",
+  "tipo_evento": "envio",
+  "fecha": "2026-10-08T12:00:00-05:00",
+  "dominio": "microsoft",
+  "reto_id": "REEMPLAZAR-RETO-ID",
+  "pregunta_id": "REEMPLAZAR-PREGUNTA-ID",
+  "actor": "I1",
+  "confirmado_por": "I1",
+  "confirmacion_humana": false,
+  "respuesta_enviada": "REEMPLAZAR-RESPUESTA-EXACTA",
+  "resultado": "pendiente",
+  "feedback": "REEMPLAZAR-FEEDBACK",
+  "fuente_feedback": "confirmacion_humana",
+  "consumio_intento": null,
+  "intentos_restantes_observados": null,
+  "pistas_usadas": [],
+  "costo_pistas_observado": null,
+  "cambio_puntos_observado": null,
+  "evidencias": [],
+  "actualiza_evento_id": null
+}
