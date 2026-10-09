@@ -17,6 +17,8 @@ Todos resolvemos. Los focos ayudan a repartir, pero podemos apoyarnos entre pare
 
 ## 2. Antes de empezar
 
+Para preparar cada computadora y cliente, seguir [CONFIGURAR-EQUIPO.md](CONFIGURAR-EQUIPO.md), con checklist, archivos por integrante y prompt de arranque.
+
 1. Obtener la versión actual del repo. Si ya lo tienes clonado, revisar tus cambios antes de actualizar; no sobrescribir trabajo pendiente.
 2. Abrir Claude Code o Codex en la raíz del repo. Si usamos un proyecto/chat sin acceso directo al repo, adjuntar el documento de nuestra pareja y los archivos relevantes actualizados.
 3. Elegir el contexto: [Microsoft, I1–I2](proyectos/contexto-microsoft.md) o [Dynatrace, I3–I4](proyectos/contexto-dynatrace.md).
