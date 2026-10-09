@@ -1,0 +1,18 @@
+{
+  "envio_id": "2207-03",
+  "tipo_evento": "envio",
+  "fecha": null,
+  "fecha_registro": "2026-10-09",
+  "respuesta_enviada": "database connection error",
+  "resultado": "incorrecta",
+  "fuente_feedback": "confirmacion_humana",
+  "feedback": "Lo intente y marco fallido",
+  "consumio_intento": true,
+  "intentos_restantes_observados": null,
+  "presupuesto_restante": 0,
+  "base_presupuesto": "Un intento restante confirmado previamente y nuevo intento fallido confirmado por el usuario",
+  "actor": "usuario; integrante desconocido",
+  "confirmacion_humana": true,
+  "pistas_usadas": null,
+  "cambio_puntos_observado": null
+}
